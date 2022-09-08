@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body, html {
+    height: 100%;
+    background-image: url(../images/img3.jpg);
+}
+
+.menu {
+  cursor: pointer !important;
+  color: rgb(228, 120, 19) !important;
+}
+
+.menu:hover {
+  color: rgb(243, 84, 10);
+}
+
+#ab {
+  font-size: 1.35em;
+}
+
+
+
+a:hover {
+  text-decoration: none;
+}
+.section-intro {
+    height: 820px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/img2.jpg);
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #cead7e;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#out {
+  color: black !important;
+}
+
+
+#carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+    background-image: url(../images/img3.jpg);
+}
+
+
+.about-section p, .about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.container {
+    font-family: 'Staatliches', cursive;
+}
+
+h1 {
+    color: inherit;
+}
+
+.frap {
+     height: 25em;
+     width: 20em;
+}
+ 
+.form{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background-image: url(../images/img3.jpg);
+
+}
+  
+#formc {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#forma {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+.form input[type="text"], .form input[type="email"], .form input[type="tel"],
+.form input[type="number"], .form textarea, .form button[type="submit"], .form input[type="password"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+  
+.form {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+  
+.form p {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+}
+  
+
+.form div {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+  
+.form input[type="text"], .form input[type="email"], .form input[type="tel"], .form input[type="password"],.form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+.form input[type="number"] {
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+.form textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+  
+.form button[type="submit"], .ord, #lout {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f58a33;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+  
+.form button[type="submit"]:hover, .ord:hover, #lout:hover {
+    background: #f16e23;
+}
+
+table {
+	width:100%;
+	border:1px solid white;
+}
+
+table th{
+	display:flex;
+	width:100%;
+	background:#000;
+  padding: (10em) 0;
+  color: white;
+  text-align:center;
+}
+
+table tr {
+	display:flex;
+	width:100%;
+	padding: (10em) 0;
+}
+
+table td {
+	flex: 1 1 20%;
+	text-align:left;
+}
